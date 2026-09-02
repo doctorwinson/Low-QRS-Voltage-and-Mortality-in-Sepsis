@@ -1,0 +1,28 @@
+# Restricted or locally generated data
+data/
+local_cache/
+local_only_validation/
+outputs/
+
+# Credentials and local R state
+.env
+.env.*
+.Renviron
+.Rhistory
+
+# Serialized analyses and compressed extracts
+*.rds
+*.RData
+*.csv.gz
+*.zip
+
+# ECG waveforms and record-level validation files
+*.hea
+*.dat
+*.atr
+*.xlsx
+*.xls
+waveform_validation_linkage_key*
+waveform_adjudication_worksheet_LOCAL_ONLY*
+reader_*_LOCAL_ONLY*
+adjudication_*_LOCAL_ONLY*

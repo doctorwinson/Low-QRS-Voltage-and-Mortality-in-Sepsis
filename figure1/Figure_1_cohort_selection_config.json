@@ -1,0 +1,70 @@
+{
+  "figure_title": "",
+  "output_basename": "Figure_1_cohort_selection",
+  "qc_report_title": "Figure 1 Cohort Selection QC Report",
+  "layout": {
+    "main_w": 3.40,
+    "main_h": 0.72,
+    "exclusion_w": 3.35,
+    "exclusion_h": 0.96,
+    "exclusion_gap": 0.55,
+    "outcome_w": 2.15,
+    "outcome_h": 0.72,
+    "outcome_gap": 0.35,
+    "outcome_visible_gap": 0.62,
+    "panel_margin": 0.42,
+    "main_y_start": 8.58,
+    "main_step_gap": 1.55,
+    "fig_w": 8.4
+  },
+  "cohorts": [
+    {
+      "name": "MIMIC-IV v2.2 and MIMIC-IV-ECG v1.0",
+      "main_flow": [
+        {
+          "label": "Adult MIMIC-IV ICU stays",
+          "n": "73,181"
+        },
+        {
+          "label": "Met the operational Sepsis-3 definition",
+          "n": "32,970"
+        },
+        {
+          "label": "Eligible source cohort for the 24-h landmark",
+          "n": "30,007"
+        },
+        {
+          "label": "Primary 24-h landmark risk set",
+          "n": "14,129"
+        }
+      ],
+      "exclusions": [
+        {
+          "after_step": 1,
+          "label": "Did not meet the operational Sepsis-3 definition",
+          "n": "40,211"
+        },
+        {
+          "after_step": 2,
+          "label": "Excluded: invalid follow-up (n = 7); pregnancy (n = 132); later ICU stay in the same hospitalization (n = 2,824)",
+          "n": "2,963"
+        },
+        {
+          "after_step": 3,
+          "label": "Excluded: alive at 24 h but without an eligible ECG during the first 24 h after ICU admission (n = 15,338); death by 24 h (n = 540)",
+          "n": "15,878"
+        }
+      ],
+      "final_groups": [
+        {
+          "label": "No machine-reported LQRSV",
+          "n": "10,916"
+        },
+        {
+          "label": "Machine-reported LQRSV",
+          "n": "3,213"
+        }
+      ]
+    }
+  ]
+}

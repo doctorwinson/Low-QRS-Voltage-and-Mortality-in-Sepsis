@@ -1,0 +1,22 @@
+variable,description,allowed_values
+sample_code,Blinded study code,V001-V400
+reader_id,Reviewer identifier,Reader 1 or Reader 2 or Adjudicator
+waveform_lqrsv,Waveform-defined low QRS voltage,Positive or Negative or Uninterpretable
+limb_lead_criterion,All limb-lead QRS amplitudes less than 0.5 mV,Yes or No or Uncertain
+precordial_criterion,All precordial-lead QRS amplitudes less than 1.0 mV,Yes or No or Uncertain
+qrs_amp_I_mV,Peak-to-peak QRS amplitude in lead I,Numeric mV or blank if uninterpretable
+qrs_amp_II_mV,Peak-to-peak QRS amplitude in lead II,Numeric mV or blank if uninterpretable
+qrs_amp_III_mV,Peak-to-peak QRS amplitude in lead III,Numeric mV or blank if uninterpretable
+qrs_amp_aVR_mV,Peak-to-peak QRS amplitude in lead aVR,Numeric mV or blank if uninterpretable
+qrs_amp_aVL_mV,Peak-to-peak QRS amplitude in lead aVL,Numeric mV or blank if uninterpretable
+qrs_amp_aVF_mV,Peak-to-peak QRS amplitude in lead aVF,Numeric mV or blank if uninterpretable
+qrs_amp_V1_mV,Peak-to-peak QRS amplitude in lead V1,Numeric mV or blank if uninterpretable
+qrs_amp_V2_mV,Peak-to-peak QRS amplitude in lead V2,Numeric mV or blank if uninterpretable
+qrs_amp_V3_mV,Peak-to-peak QRS amplitude in lead V3,Numeric mV or blank if uninterpretable
+qrs_amp_V4_mV,Peak-to-peak QRS amplitude in lead V4,Numeric mV or blank if uninterpretable
+qrs_amp_V5_mV,Peak-to-peak QRS amplitude in lead V5,Numeric mV or blank if uninterpretable
+qrs_amp_V6_mV,Peak-to-peak QRS amplitude in lead V6,Numeric mV or blank if uninterpretable
+standard_calibration,Standard 10 mm per mV calibration confirmed,Yes or No or Uncertain
+paced_rhythm,Paced rhythm present,Yes or No or Uncertain
+artifact_or_missing_leads,Artifact or missing leads affects classification,Yes or No
+reviewer_comment,Brief rationale or uncertainty note,Free text

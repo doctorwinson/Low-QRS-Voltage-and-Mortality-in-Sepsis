@@ -1,0 +1,4 @@
+machine_report_class,waveform_positive,waveform_negative,total
+Positive,140,60,200
+Negative,3,197,200
+Total,143,257,400

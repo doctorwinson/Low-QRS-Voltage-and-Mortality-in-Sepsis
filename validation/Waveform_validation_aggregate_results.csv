@@ -1,0 +1,9 @@
+metric,estimate,ci_lower,ci_upper,ci_method
+Sensitivity,0.9321380614,0.8574059802,1.0000000000,Stratified bootstrap
+Specificity,0.9177290170,0.9013454515,0.9340720797,Stratified bootstrap
+Positive predictive value,0.7000000000,0.6313501245,0.7626103559,Exact binomial
+Negative predictive value,0.9850000000,0.9567917181,0.9968958924,Exact binomial
+Overall agreement,0.9201896808,0.8999510050,0.9386007502,Stratified bootstrap
+Machine-report-versus-waveform kappa,0.7509880864,0.6870040183,0.8108109337,Stratified bootstrap
+Pre-adjudication reader agreement,0.9425000000,NA,NA,Descriptive
+Pre-adjudication three-category Cohen kappa,0.8780000000,0.8290000000,0.9250000000,Stratified bootstrap

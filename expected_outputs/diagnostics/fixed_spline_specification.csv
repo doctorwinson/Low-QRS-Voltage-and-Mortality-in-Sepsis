@@ -1,0 +1,7 @@
+cohort,variable,knot_1,knot_2,boundary_low,boundary_high
+nononcologic,age,62.33175429400741,75.79368884191851,18.16744415726803,98.87525804808867
+nononcologic,weight,72.4,90.2,20.5,288.40000000000003
+nononcologic,sofa,4,7,0,22
+malignancy_inclusive,age,62.67183323101659,75.84731556469814,18.16744415726803,98.87525804808867
+malignancy_inclusive,weight,72,89.7,20.5,288.40000000000003
+malignancy_inclusive,sofa,4,7,0,22

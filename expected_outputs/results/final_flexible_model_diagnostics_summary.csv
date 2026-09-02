@@ -1,0 +1,11 @@
+diagnostic,minimum,median,maximum
+Model convergence proportion,1,1,1
+Fisher-scoring iterations,5,5,5
+Model rank,23,23,23
+Events per fitted parameter,102,102,102
+Maximum adjusted GVIF from all-linear surrogate,1.16143,1.16233,1.16283
+Condition index of final flexible design,4.73649,4.84094,4.84728
+Cluster-robust/conventional SE ratio,1.00631,1.0077,1.00851
+Maximum absolute DFBETA for LQRSV,0.0422667,0.0423946,0.0425651
+Maximum Cook's distance,0.00439941,0.00527868,0.011659600000000001
+Maximum leverage,0.060399,0.0665774,0.0906343

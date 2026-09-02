@@ -1,0 +1,4 @@
+cohort,stays,patients,exposed,deaths,imputations,iterations,logged_events
+nononcologic_landmark,12285,11152,2695,1762,40,10,0
+malignancy_inclusive_landmark,14129,12812,3213,2346,40,10,0
+malignancy_inclusive_broad,22569,18930,4960,4315,40,10,0

@@ -1,0 +1,4 @@
+analysis,n,exposed,deaths,estimate,conf_low,conf_high,p_value,df,fraction_missing_information
+Malignancy-inclusive Model 1,14129,3213,2346,1.747624,1.584638,1.927373,7.16431e-29,12806.68,1.5613e-4
+Malignancy-inclusive Model 2,14129,3213,2346,1.627235,1.46673,1.805304,4.524339999999999e-20,12791.68,2.4544e-4
+Malignancy-inclusive flexible Model 3,14129,3213,2346,1.278227,1.143703,1.428575,1.52369e-5,12769.8,0.0011672

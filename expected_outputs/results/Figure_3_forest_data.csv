@@ -1,0 +1,13 @@
+analysis,n,exposed,deaths,estimate,conf_low,conf_high,p_value,df,fraction_missing_information,label,estimate_text
+Model 3: flexible primary model with categorical ECG count,12285,2695,1762,1.206054,1.063286,1.367992,0.00356524,11103.89,0.0016945,Non-oncologic cohort,1.206 (1.063-1.368)
+Malignancy-inclusive flexible Model 3,14129,3213,2346,1.278227,1.143703,1.428575,1.52369e-5,12769.8,0.0011672,Primary landmark analysis,1.278 (1.144-1.429)
+Malignancy-inclusive continuous ECG-count adjustment,14129,3213,2346,1.282087,1.147236,1.432789,1.18099e-5,12770.46,0.0011832,Continuous ECG count,1.282 (1.147-1.433)
+Malignancy-inclusive exposure defined by first post-ICU ECG,14129,2878,2346,1.27141,1.133036,1.426684,4.43686e-5,12767.55,0.0012713,First post-ICU ECG,1.271 (1.133-1.427)
+Malignancy-inclusive exactly one ECG in first 24 hours,10621,2221,1632,1.259832,1.100719,1.441946,8.01114e-4,9812.77,0.0018689,Exactly one ECG,1.260 (1.101-1.442)
+Malignancy-inclusive first eligible landmark stay per patient,12812,2880,2079,1.298029,1.155028,1.458735,1.19362e-5,12766.86,0.0013021,First eligible stay per patient,1.298 (1.155-1.459)
+Malignancy-inclusive flexible Model 3 without lactate,14129,3213,2346,1.287309,1.152458,1.437939,7.75522e-6,12786.63,2.5995e-4,Model without lactate,1.287 (1.152-1.438)
+Malignancy-inclusive log-transformed lactate model,14129,3213,2346,1.275555,1.141514,1.425335,1.74511e-5,12769.03,0.0012033,Log-transformed lactate,1.276 (1.142-1.425)
+Malignancy-inclusive Sepsis-3 timing within 24 hours of ICU admission,13385,3077,2188,1.250754,1.114466,1.403708,1.4455e-4,12123.26,0.0012066,Sepsis timing within +/-24 h,1.251 (1.114-1.404)
+Malignancy-inclusive expanded acuity model,14129,3213,2346,1.324676,1.18666,1.478744,5.54045e-7,12745.48,0.0021991,Expanded acuity model,1.325 (1.187-1.479)
+Malignancy-inclusive complete-case flexible Model 3,10108,2471,1714,1.210021,1.064721,1.37515,0.00349538,9529,NA,Complete-case analysis,1.210 (1.065-1.375)
+Malignancy-inclusive broad-window flexible Model 3,22569,4960,4315,1.2952486884521115,1.1885258492692083,1.4115546296014236,3.764599634476525e-9,18621.400670784573,0.00477076547324171,Broad ECG window,1.295 (1.189-1.412)
